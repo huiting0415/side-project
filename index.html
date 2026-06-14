@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <title>謝惠婷的皮鞋店</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="謝惠婷的皮鞋店 - 提供高品質的皮鞋與鞋類配件，結合經典工藝與現代設計，為您帶來極致的行走體驗。">
+  <meta name="keywords" content="皮鞋, 鞋類配件, 高品質, 經典工藝, 現代設計">
+  
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Core Design System -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="nav-container">
+      <div class="logo-section">
+        <a href="index.html" style="display: flex; align-items: center; gap: 12px;">
+          <img src="assets/images/logo.png" alt="AURA Logo">
+          <span class="brand-name">AURA</span>
+        </a>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">首頁</a>
+        <a href="about.html">公司簡介</a>
+        <a href="casual.html">休閒鞋款</a>
+        <a href="formal.html">正式鞋款</a>
+        <a href="functional.html">機能鞋款</a>
+        <a href="accessories.html">鞋類配件</a>
+        <a href="others.html">其它類</a>
+        <a href="contact.html">聯絡我們</a>
+      </nav>
+      <div class="nav-icons">
+        <div class="nav-icon cart-icon-container" id="cart-icon-btn">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="cart-badge">0</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="home-hero">
+    <div class="home-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1600&auto=format&fit=crop&q=80');"></div>
+    <div class="home-hero-content">
+      <h2>極致工藝<br>重新定義<span>行走美學</span></h2>
+      <p>AURA 結合奢華工藝與頂級人體工學，為每一雙足部提供量身訂製般的頂級承托。探索最新男女休閒、正裝與科技運動機能系列，走出您的璀璨步伐。</p>
+      <div style="display: flex; gap: 15px;">
+        <a href="casual.html" class="btn btn-primary">立即選購</a>
+        <a href="about.html" class="btn btn-outline">關於品牌</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Features Section -->
+  <main style="padding-top: 0;">
+    <section class="content-section">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-gem"></i></div>
+          <h3>匠人純手工藝</h3>
+          <p>每雙皮鞋皆歷經 120 道複雜工法、手工擦色上漆，展現絕無僅有的精湛細節與溫度。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-feather-alt"></i></div>
+          <h3>革命性動能科技</h3>
+          <p>獨家專利三密度科技減震防滑中底，有效分散全天候行走壓力，保護膝蓋健康。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-recycle"></i></div>
+          <h3>永續環保皮革</h3>
+          <p>我們只採用頂級認證環保皮革與可再生精梳棉，給您的雙腳與地球最溫和的呵護。</p>
+        </div>
+      </div>
+
+      <!-- Categories Promo Section -->
+      <h2 class="promo-section-title">熱門鞋履分類</h2>
+      <div class="category-promo-grid">
+        <div class="promo-card large-card" onclick="location.href='casual.html'">
+          <img class="promo-img" src="assets/images/casual_1.png" alt="休閒鞋款">
+          <div class="promo-overlay">
+            <h3>經典休閒鞋系列</h3>
+            <p>現代極簡線條，城市漫步與日常時尚的完美平衡。</p>
+            <span class="promo-link">探索系列 <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+        
+        <div class="promo-card" onclick="location.href='formal.html'">
+          <img class="promo-img" src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&auto=format&fit=crop&q=80" alt="正式鞋款">
+          <div class="promo-overlay">
+            <h3>紳士正裝皮鞋</h3>
+            <p>無與倫比的高貴仕紳氣質。</p>
+            <span class="promo-link">探索系列 <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="promo-card" onclick="location.href='functional.html'">
+          <img class="promo-img" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800&auto=format&fit=crop&q=80" alt="機能鞋款">
+          <div class="promo-overlay">
+            <h3>科技機能運動鞋</h3>
+            <p>越野探險與速度馬拉松的強大推進。</p>
+            <span class="promo-link">探索系列 <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="promo-card large-card" onclick="location.href='accessories.html'">
+          <img class="promo-img" src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&auto=format&fit=crop&q=80" alt="鞋類配件">
+          <div class="promo-overlay">
+            <h3>頂級保養與配件</h3>
+            <p>人體工學足弓鞋墊與頂級精梳棉運動襪，守護行走的每一步細節。</p>
+            <span class="promo-link">探索系列 <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Cart Drawer Overlay & Wrapper -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <div class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3>您的購物車</h3>
+      <span class="cart-close" id="cart-close-btn">×</span>
+    </div>
+    <div class="cart-items" id="cart-items-container">
+      <!-- Generated by JS -->
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>小計:</span>
+        <span class="cart-total-price" id="cart-total-price-val">NT$ 0</span>
+      </div>
+      <button class="btn btn-primary cart-checkout-btn" onclick="triggerCheckout()">立即結帳</button>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <img src="assets/images/logo.png" alt="AURA Logo">
+        <p>AURA 誕生於對極致行走美學的追求。我們將經典義大利製鞋工藝與最新運動避震科技完美結合，讓穿鞋成為一種奢華的享受。</p>
+        <div class="footer-socials">
+          <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+          <a class="social-icon" href="#"><i class="fab fa-instagram"></i></a>
+          <a class="social-icon" href="#"><i class="fab fa-line"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>品牌導覽</h4>
+        <ul>
+          <li><a href="about.html">關於 AURA</a></li>
+          <li><a href="casual.html">休閒鞋款</a></li>
+          <li><a href="formal.html">正式鞋款</a></li>
+          <li><a href="functional.html">機能鞋款</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>顧客服務</h4>
+        <ul>
+          <li><a href="contact.html">聯絡我們</a></li>
+          <li><a href="contact.html">門市資訊</a></li>
+          <li><a href="#">常見問題 FAQ</a></li>
+          <li><a href="#">退換貨政策</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h4>訂閱電子報</h4>
+        <p>訂閱 AURA 最新設計單品上市消息，並獲得專屬優惠券與 VIP 禮品卡通知。</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('感謝訂閱！'); this.reset();">
+          <input class="newsletter-input" type="email" placeholder="輸入您的 Email..." required>
+          <button class="newsletter-btn" type="submit">訂閱</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 AURA Footwear Inc. 版權所有。僅供靜態展示用途。</p>
+      <div class="footer-bottom-links">
+        <a href="#">使用條款</a>
+        <a href="#">隱私權政策</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
